@@ -2,7 +2,8 @@ puts "Veuillez entrer votre année de naissance : ex (1234)"
 print "> "
 age = gets.chomp.to_i
 x = 0
-y = 2018 - age  
+y = 2018 - age
+puts "On prend l'année 2018 comme repére"
 while y > 0 && x >= 0 do
     x += 1
     y -= 1
